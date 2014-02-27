@@ -18,7 +18,7 @@ html {
 	-webkit-text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: "Arial", Arial, sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
 }
 
 img {
@@ -55,7 +55,7 @@ header {
 
 h1 {
     font-weight: normal;
-    font-size: 3.25rem;
+    font-size: 3.75rem;
     background-color: rgba(225, 215, 0,.8);
     text-transform: uppercase;
     letter-spacing: -.1rem;
@@ -67,6 +67,7 @@ p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem;
     background-color: beige;
+    padding: 1rem;
 }
 
 .dropcap:first-letter {
@@ -95,21 +96,20 @@ article p:first-child {
 p {
     border: 4px solid;
     border-color: firebrick;
-}
-    
-img { 
-    border: 4px solid;
-    border-color: firebrick;
+    font-size: 1.3rem;
 }
 
 figcaption {
     padding: .2rem 3% 1rem;
+    font-size: 1rem
 }
 
 ol {
     border: 4px solid;
     border-color: firebrick;
     background-color: beige;
+    padding: 1rem 10%;
+    font-size: 1.3rem;
 }
 
 h2 {
@@ -118,12 +118,13 @@ h2 {
 
 h3 {
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     margin: 0 0 1.5rem;
     border: 4px solid;
     background-color: beige;
     border-color: firebrick;
+    padding: 1rem;
 }
 
 footer {
